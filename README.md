@@ -6,7 +6,7 @@ Open it at:
 
 https://outsider-analytics.github.io/daily-workout/
 
-The page uses the phone's local date. Each set has a reps box and a weight box. Those numbers stay in this phone's browser. Replace swaps that day for a workout you type in. Delete removes it. Restore shared plan brings back the copy from the database.
+The page uses the phone's local date. Watch opens a YouTube demo for that exercise. Each set has a reps box and a weight box. Those numbers stay in this phone's browser. Replace swaps that day for a workout you type in. Delete removes it. Restore shared plan brings back the copy from the database.
 
 This week is the lower-leg rehab block for September 23–27. No running. Pain during training stays at 0–3/10.
 

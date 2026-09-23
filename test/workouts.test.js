@@ -51,6 +51,28 @@ test("seeding replaces one date and keeps the others", () => {
   )
 })
 
+test("a YouTube link is kept and any other link is rejected", () => {
+  const store = upsertWorkouts(emptyStore(), {
+    date: "2026-09-23",
+    title: "Lower-leg capacity",
+    exercises: [{
+      name: "Straight-knee calf raise",
+      sets: 3,
+      reps: "8-10",
+      youtube: "https://youtu.be/gw_a90PqMqk",
+    }],
+  })
+  assert.equal(store.workouts[0].exercises[0].youtube, "https://youtu.be/gw_a90PqMqk")
+  assert.throws(
+    () => upsertWorkouts(emptyStore(), {
+      date: "2026-09-23",
+      title: "Lower-leg capacity",
+      exercises: [{ name: "Calf raise", sets: 1, reps: "8", youtube: "https://example.com/video" }],
+    }),
+    /YouTube/,
+  )
+})
+
 test("bad dates and missing exercises fail before anything is written", () => {
   assert.throws(() => upsertWorkouts(emptyStore(), { date: "2026-02-31", title: "Nope", exercises: [] }), /real YYYY-MM-DD/)
   assert.throws(
@@ -89,6 +111,11 @@ test("the checked-in week is the rehab block and the seed script can replace a d
   assert.equal(workoutForDate(live, "2026-09-23").title, "Lower-leg capacity")
   assert.equal(workoutForDate(live, "2026-09-23").exercises[0].name, "Straight-knee calf raise")
   assert.equal(workoutForDate(live, "2026-09-23").exercises[0].sets, 3)
+  assert.equal(
+    workoutForDate(live, "2026-09-23").exercises[0].youtube,
+    "https://www.youtube.com/watch?v=gw_a90PqMqk",
+  )
+  assert.ok(live.workouts.every((workout) => workout.exercises.every((exercise) => exercise.youtube.startsWith("https://www.youtube.com/watch?v="))))
   assert.equal(workoutForDate(live, "2026-09-27").title, "Recovery")
   assert.equal(workoutForDate(live, "2026-09-21"), null)
 

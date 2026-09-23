@@ -9,7 +9,7 @@ Before a session, replace that date:
 3. Commit `data/workouts.json` and push `main` so the phone can see it.
 4. Wait for GitHub Pages, then the page at https://outsider-analytics.github.io/daily-workout/ shows the new day.
 
-Required fields: `date` (`YYYY-MM-DD`), `title`, and `exercises`. Each exercise needs `name`, integer `sets`, and `reps`. `load` and `notes` can be empty strings. `sample: false` hides the sample banner.
+Required fields: `date` (`YYYY-MM-DD`), `title`, and `exercises`. Each exercise needs `name`, integer `sets`, and `reps`. `load` and `notes` can be empty strings. `youtube` is optional and must be an `https` `youtube.com` or `youtu.be` URL when present. `sample: false` hides the sample banner.
 
 The current plan is the lower-leg rehab block for 2026-09-23 through 2026-09-27. Do not replace it with a general lifting week. Do not invent Monday's workout. Leave `load` blank unless the user named a weight.
 

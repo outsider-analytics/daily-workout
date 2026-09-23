@@ -95,9 +95,16 @@ function body(workout) {
       exercise.load,
     ].filter(Boolean).join(" · ")
 
+    const watch = exercise.youtube
+      ? `<a class="watch" href="${escapeHtml(exercise.youtube)}" target="_blank" rel="noopener noreferrer">Watch</a>`
+      : ""
+
     return `
       <li class="exercise">
-        <h2><span class="index">${String(exerciseIndex + 1).padStart(2, "0")}</span>${escapeHtml(exercise.name)}</h2>
+        <div class="exercise-head">
+          <h2><span class="index">${String(exerciseIndex + 1).padStart(2, "0")}</span>${escapeHtml(exercise.name)}</h2>
+          ${watch}
+        </div>
         <p class="cue">${escapeHtml(prescription)}${exercise.notes ? ` · ${escapeHtml(exercise.notes)}` : ""}</p>
         <div class="set-list">${sets}</div>
       </li>
@@ -150,6 +157,9 @@ function editor(draft) {
       </div>
       <label class="field">Note
         <input name="cue" autocomplete="off" value="${escapeHtml(exercise.notes)}">
+      </label>
+      <label class="field">YouTube
+        <input name="youtube" inputmode="url" autocomplete="off" placeholder="https://www.youtube.com/watch?v=..." value="${escapeHtml(exercise.youtube || "")}">
       </label>
       <button type="button" data-action="remove-exercise" data-index="${index}">Remove exercise</button>
     </div>
@@ -223,7 +233,7 @@ function bind() {
     }
     if (action === "add-exercise") {
       const draft = readDraft(document.querySelector("#editor"))
-      draft.exercises.push({ name: "", sets: 3, reps: "10", load: "", notes: "" })
+      draft.exercises.push({ name: "", sets: 3, reps: "10", load: "", notes: "", youtube: "" })
       view = { ...view, draft, error: "" }
       renderApp()
     }
@@ -260,7 +270,7 @@ function openEditor() {
         title: "",
         notes: "",
         sample: false,
-        exercises: [{ name: "", sets: 3, reps: "10", load: "", notes: "" }],
+        exercises: [{ name: "", sets: 3, reps: "10", load: "", notes: "", youtube: "" }],
       }
   view = { mode: "edit", confirmDelete: false, error: "", draft }
   renderApp()
@@ -289,6 +299,7 @@ function readDraft(form) {
       reps: row.querySelector("[name=reps]").value,
       load: row.querySelector("[name=load]").value,
       notes: row.querySelector("[name=cue]").value,
+      youtube: row.querySelector("[name=youtube]").value,
     })),
   }
 }

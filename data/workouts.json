@@ -13,28 +13,32 @@
           "sets": 3,
           "reps": "8-10",
           "load": "",
-          "notes": "RPE 7"
+          "notes": "RPE 7",
+          "youtube": "https://www.youtube.com/watch?v=gw_a90PqMqk"
         },
         {
           "name": "Bent-knee soleus",
           "sets": 3,
           "reps": "10-12",
           "load": "",
-          "notes": "RPE 7"
+          "notes": "RPE 7",
+          "youtube": "https://www.youtube.com/watch?v=8Vc4cx7nF4Y"
         },
         {
           "name": "Cable eversion",
           "sets": 3,
           "reps": "15-20",
           "load": "",
-          "notes": ""
+          "notes": "",
+          "youtube": "https://www.youtube.com/watch?v=xfrncpP5ONQ"
         },
         {
           "name": "Single-leg balance",
           "sets": 3,
           "reps": "45 sec / side",
           "load": "",
-          "notes": ""
+          "notes": "",
+          "youtube": "https://www.youtube.com/watch?v=Dtgh2_LFkBQ"
         }
       ]
     },
@@ -49,28 +53,32 @@
           "sets": 1,
           "reps": "20-30 min",
           "load": "",
-          "notes": ""
+          "notes": "",
+          "youtube": "https://www.youtube.com/watch?v=XugMoMDxyhM"
         },
         {
           "name": "Step-downs",
           "sets": 3,
           "reps": "10 / side",
           "load": "",
-          "notes": ""
+          "notes": "",
+          "youtube": "https://www.youtube.com/watch?v=Or4C-UQ63Xc"
         },
         {
           "name": "Lateral band walks",
           "sets": 3,
           "reps": "15 / side",
           "load": "",
-          "notes": ""
+          "notes": "",
+          "youtube": "https://www.youtube.com/watch?v=rPTkrAJ6Fh4"
         },
         {
           "name": "Light calf isometric",
           "sets": 3,
           "reps": "30-45 sec",
           "load": "",
-          "notes": "Light"
+          "notes": "Light",
+          "youtube": "https://www.youtube.com/watch?v=A2XU5b-h-WU"
         }
       ]
     },
@@ -85,28 +93,32 @@
           "sets": 4,
           "reps": "6-8",
           "load": "",
-          "notes": "RPE 7-8"
+          "notes": "RPE 7-8",
+          "youtube": "https://www.youtube.com/watch?v=gw_a90PqMqk"
         },
         {
           "name": "Bent-knee soleus",
           "sets": 4,
           "reps": "8-10",
           "load": "",
-          "notes": "RPE 7-8"
+          "notes": "RPE 7-8",
+          "youtube": "https://www.youtube.com/watch?v=8Vc4cx7nF4Y"
         },
         {
           "name": "Single-leg RDL",
           "sets": 3,
           "reps": "8 / side",
           "load": "",
-          "notes": ""
+          "notes": "",
+          "youtube": "https://www.youtube.com/watch?v=Zfr6wizR8rs"
         },
         {
           "name": "Cable eversion",
           "sets": 3,
           "reps": "15",
           "load": "",
-          "notes": ""
+          "notes": "",
+          "youtube": "https://www.youtube.com/watch?v=xfrncpP5ONQ"
         }
       ]
     },
@@ -121,28 +133,32 @@
           "sets": 3,
           "reps": "20",
           "load": "band",
-          "notes": ""
+          "notes": "",
+          "youtube": "https://www.youtube.com/watch?v=xfrncpP5ONQ"
         },
         {
           "name": "Balance",
           "sets": 3,
           "reps": "45 sec",
           "load": "",
-          "notes": ""
+          "notes": "",
+          "youtube": "https://www.youtube.com/watch?v=Dtgh2_LFkBQ"
         },
         {
           "name": "Lateral band walks",
           "sets": 2,
           "reps": "15",
           "load": "band",
-          "notes": ""
+          "notes": "",
+          "youtube": "https://www.youtube.com/watch?v=rPTkrAJ6Fh4"
         },
         {
           "name": "Normal walking",
           "sets": 1,
           "reps": "easy walk",
           "load": "",
-          "notes": ""
+          "notes": "",
+          "youtube": "https://www.youtube.com/watch?v=SPTWBCwAZEs"
         }
       ]
     },
@@ -157,14 +173,16 @@
           "sets": 1,
           "reps": "easy walk",
           "load": "",
-          "notes": ""
+          "notes": "",
+          "youtube": "https://www.youtube.com/watch?v=SPTWBCwAZEs"
         },
         {
           "name": "Gentle ankle mobility",
           "sets": 1,
           "reps": "easy",
           "load": "",
-          "notes": "No hard calf work"
+          "notes": "No hard calf work",
+          "youtube": "https://www.youtube.com/watch?v=mzTQGYGI0Ng"
         }
       ]
     }

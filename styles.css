@@ -96,10 +96,32 @@ h1 {
   background: var(--bg-raise);
 }
 
+.exercise-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
 .exercise h2 {
   margin: 0;
   font-size: 1.15rem;
   letter-spacing: -0.02em;
+}
+
+.watch {
+  flex: none;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 0.9rem;
+  border-radius: 999px;
+  background: var(--lime);
+  color: var(--lime-ink);
+  font-size: 0.92rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-decoration: none;
 }
 
 .index {
