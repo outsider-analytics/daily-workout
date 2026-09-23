@@ -5,11 +5,17 @@ import os from "node:os"
 import path from "node:path"
 import test from "node:test"
 import {
+  clearOverride,
+  deleteDay,
   emptyStore,
   formatLongDate,
+  logValue,
+  resolveDay,
+  setOverride,
   shiftISODate,
   upsertWorkouts,
   workoutForDate,
+  writeLog,
 } from "../lib/workouts.js"
 
 const root = path.resolve(import.meta.dirname, "..")
@@ -53,9 +59,38 @@ test("bad dates and missing exercises fail before anything is written", () => {
   )
 })
 
-test("the checked-in week includes today and the seed script can replace a day", () => {
+test("a logged set and a replaced day stay on the phone copy", () => {
+  let state = writeLog({ overrides: {}, logs: {} }, "2026-09-23", 0, 1, "reps", "9")
+  state = writeLog(state, "2026-09-23", 0, 1, "load", "25")
+  assert.equal(logValue(state, "2026-09-23", 0, 1, "reps"), "9")
+  assert.equal(logValue(state, "2026-09-23", 0, 0, "load"), "")
+
+  const store = upsertWorkouts(emptyStore(), {
+    date: "2026-09-23",
+    title: "Lower-leg capacity",
+    exercises: [{ name: "Straight-knee calf raise", sets: 3, reps: "8-10", notes: "RPE 7" }],
+  })
+  const replaced = setOverride(state, {
+    date: "2026-09-23",
+    title: "Shorter calf day",
+    exercises: [{ name: "Bent-knee soleus", sets: 2, reps: "10", load: "" }],
+  })
+  assert.equal(resolveDay(store, "2026-09-23", replaced).workout.title, "Shorter calf day")
+  assert.equal(resolveDay(store, "2026-09-23", replaced).source, "phone")
+
+  const removed = deleteDay(replaced, "2026-09-23")
+  assert.equal(resolveDay(store, "2026-09-23", removed).workout, null)
+  assert.equal(resolveDay(store, "2026-09-23", clearOverride(removed, "2026-09-23")).workout.title, "Lower-leg capacity")
+})
+
+test("the checked-in week is the rehab block and the seed script can replace a day", () => {
   const live = JSON.parse(fs.readFileSync(path.join(root, "data", "workouts.json"), "utf8"))
-  assert.equal(workoutForDate(live, "2026-09-23").title, "Upper strength")
+  assert.match(live.guidance, /Skip running/)
+  assert.equal(workoutForDate(live, "2026-09-23").title, "Lower-leg capacity")
+  assert.equal(workoutForDate(live, "2026-09-23").exercises[0].name, "Straight-knee calf raise")
+  assert.equal(workoutForDate(live, "2026-09-23").exercises[0].sets, 3)
+  assert.equal(workoutForDate(live, "2026-09-27").title, "Recovery")
+  assert.equal(workoutForDate(live, "2026-09-21"), null)
 
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), "daily-workout-"))
   const dbPath = path.join(dir, "workouts.json")
@@ -79,6 +114,7 @@ test("the checked-in week includes today and the seed script can replace a day",
   assert.equal(result.status, 0, result.stderr)
   const saved = JSON.parse(fs.readFileSync(dbPath, "utf8"))
   assert.equal(workoutForDate(saved, "2026-09-23").title, "Custom upper")
-  assert.equal(workoutForDate(saved, "2026-09-21").title, "Lower strength")
+  assert.equal(workoutForDate(saved, "2026-09-24").title, "Easy day")
+  assert.match(saved.guidance, /Skip running/)
   fs.rmSync(dir, { recursive: true, force: true })
 })

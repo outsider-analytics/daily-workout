@@ -1,198 +1,172 @@
 {
   "version": 1,
+  "guidance": "Keep pain during training at 0–3/10. The bigger checkpoint is the next morning: if the Achilles and peroneals feel the same or better, the load was appropriate. Skip running this week. Monday is the next heavy lower-leg day.",
   "workouts": [
     {
-      "date": "2026-09-21",
-      "title": "Lower strength",
-      "sample": true,
-      "notes": "Sample weights. Change them to what you actually lift.",
-      "exercises": [
-        {
-          "name": "Back squat",
-          "sets": 4,
-          "reps": "5",
-          "load": "155 lb",
-          "notes": "Brace before you unrack"
-        },
-        {
-          "name": "Romanian deadlift",
-          "sets": 3,
-          "reps": "8",
-          "load": "135 lb",
-          "notes": "Stop when the back starts to round"
-        },
-        {
-          "name": "Walking lunge",
-          "sets": 3,
-          "reps": "10 / leg",
-          "load": "bodyweight",
-          "notes": ""
-        },
-        {
-          "name": "Leg curl",
-          "sets": 3,
-          "reps": "12",
-          "load": "50 lb",
-          "notes": ""
-        },
-        {
-          "name": "Calf raise",
-          "sets": 3,
-          "reps": "12",
-          "load": "100 lb",
-          "notes": "Pause at the top"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-22",
-      "title": "Rest",
-      "sample": true,
-      "notes": "No lifting. A walk is plenty.",
-      "exercises": []
-    },
-    {
       "date": "2026-09-23",
-      "title": "Upper strength",
-      "sample": true,
-      "notes": "Sample weights. Change them to what you actually lift.",
+      "title": "Lower-leg capacity",
+      "sample": false,
+      "notes": "Build capacity. Do not test running.",
       "exercises": [
         {
-          "name": "Bench press",
-          "sets": 4,
-          "reps": "6",
-          "load": "135 lb",
-          "notes": "Leave a rep or two in the tank"
-        },
-        {
-          "name": "One-arm dumbbell row",
-          "sets": 4,
-          "reps": "8",
-          "load": "40 lb",
-          "notes": "Each arm"
-        },
-        {
-          "name": "Seated dumbbell shoulder press",
+          "name": "Straight-knee calf raise",
           "sets": 3,
-          "reps": "8",
-          "load": "30 lb",
-          "notes": "Each hand"
+          "reps": "8-10",
+          "load": "",
+          "notes": "RPE 7"
         },
         {
-          "name": "Lat pulldown",
+          "name": "Bent-knee soleus",
           "sets": 3,
-          "reps": "10",
-          "load": "80 lb",
+          "reps": "10-12",
+          "load": "",
+          "notes": "RPE 7"
+        },
+        {
+          "name": "Cable eversion",
+          "sets": 3,
+          "reps": "15-20",
+          "load": "",
           "notes": ""
         },
         {
-          "name": "Lateral raise",
-          "sets": 2,
-          "reps": "15",
-          "load": "10 lb",
+          "name": "Single-leg balance",
+          "sets": 3,
+          "reps": "45 sec / side",
+          "load": "",
           "notes": ""
         }
       ]
     },
     {
       "date": "2026-09-24",
-      "title": "Lower strength",
-      "sample": true,
-      "notes": "Sample weights. Hinge day, so keep the back set.",
+      "title": "Easy day",
+      "sample": false,
+      "notes": "Easy bike and light lower-leg work. No running.",
       "exercises": [
         {
-          "name": "Deadlift",
-          "sets": 3,
-          "reps": "5",
-          "load": "185 lb",
-          "notes": "Reset each rep"
-        },
-        {
-          "name": "Front squat",
-          "sets": 3,
-          "reps": "6",
-          "load": "95 lb",
+          "name": "Easy bike",
+          "sets": 1,
+          "reps": "20-30 min",
+          "load": "",
           "notes": ""
         },
         {
-          "name": "Hip thrust",
+          "name": "Step-downs",
           "sets": 3,
-          "reps": "8",
-          "load": "135 lb",
+          "reps": "10 / side",
+          "load": "",
           "notes": ""
         },
         {
-          "name": "Split squat",
+          "name": "Lateral band walks",
           "sets": 3,
-          "reps": "8 / leg",
-          "load": "25 lb",
-          "notes": "Dumbbell in each hand"
+          "reps": "15 / side",
+          "load": "",
+          "notes": ""
         },
         {
-          "name": "Plank",
+          "name": "Light calf isometric",
           "sets": 3,
-          "reps": "40 sec",
-          "load": "bodyweight",
-          "notes": "Stop if the lower back sags"
+          "reps": "30-45 sec",
+          "load": "",
+          "notes": "Light"
         }
       ]
     },
     {
       "date": "2026-09-25",
-      "title": "Upper pump",
-      "sample": true,
-      "notes": "Sample weights. Lighter than Wednesday.",
+      "title": "Lower-leg strength",
+      "sample": false,
+      "notes": "Calf work at RPE 7-8. No running.",
       "exercises": [
         {
-          "name": "Incline dumbbell press",
-          "sets": 3,
-          "reps": "10",
-          "load": "40 lb",
-          "notes": "Each hand"
+          "name": "Straight-knee calf raise",
+          "sets": 4,
+          "reps": "6-8",
+          "load": "",
+          "notes": "RPE 7-8"
         },
         {
-          "name": "Chest-supported row",
-          "sets": 3,
-          "reps": "10",
-          "load": "30 lb",
-          "notes": "Each hand"
+          "name": "Bent-knee soleus",
+          "sets": 4,
+          "reps": "8-10",
+          "load": "",
+          "notes": "RPE 7-8"
         },
         {
-          "name": "Lat pulldown",
+          "name": "Single-leg RDL",
           "sets": 3,
-          "reps": "8",
-          "load": "70 lb",
-          "notes": "Use pull-ups instead if those are easy"
-        },
-        {
-          "name": "Face pull",
-          "sets": 2,
-          "reps": "15",
-          "load": "25 lb",
+          "reps": "8 / side",
+          "load": "",
           "notes": ""
         },
         {
-          "name": "Curl",
-          "sets": 2,
-          "reps": "12",
-          "load": "25 lb",
+          "name": "Cable eversion",
+          "sets": 3,
+          "reps": "15",
+          "load": "",
           "notes": ""
         }
       ]
     },
     {
       "date": "2026-09-26",
-      "title": "Rest",
-      "sample": true,
-      "notes": "No lifting.",
-      "exercises": []
+      "title": "Home day",
+      "sample": false,
+      "notes": "Light day at home.",
+      "exercises": [
+        {
+          "name": "Band eversion",
+          "sets": 3,
+          "reps": "20",
+          "load": "band",
+          "notes": ""
+        },
+        {
+          "name": "Balance",
+          "sets": 3,
+          "reps": "45 sec",
+          "load": "",
+          "notes": ""
+        },
+        {
+          "name": "Lateral band walks",
+          "sets": 2,
+          "reps": "15",
+          "load": "band",
+          "notes": ""
+        },
+        {
+          "name": "Normal walking",
+          "sets": 1,
+          "reps": "easy walk",
+          "load": "",
+          "notes": ""
+        }
+      ]
     },
     {
       "date": "2026-09-27",
-      "title": "Rest",
-      "sample": true,
-      "notes": "Week is done. Seed next week before Monday.",
-      "exercises": []
+      "title": "Recovery",
+      "sample": false,
+      "notes": "Recovery only. No hard calf work.",
+      "exercises": [
+        {
+          "name": "Normal walking",
+          "sets": 1,
+          "reps": "easy walk",
+          "load": "",
+          "notes": ""
+        },
+        {
+          "name": "Gentle ankle mobility",
+          "sets": 1,
+          "reps": "easy",
+          "load": "",
+          "notes": "No hard calf work"
+        }
+      ]
     }
   ]
 }

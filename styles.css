@@ -29,6 +29,7 @@ main {
     max(1.25rem, env(safe-area-inset-top))
     1.15rem
     max(1.5rem, env(safe-area-inset-bottom));
+  overflow-wrap: break-word;
 }
 
 .kicker {
@@ -73,6 +74,12 @@ h1 {
 }
 
 .notes { margin: 0.8rem 0 0; }
+
+.guidance {
+  margin: 1rem 0 0;
+  color: var(--muted);
+  line-height: 1.45;
+}
 
 .exercises {
   list-style: none;
@@ -190,3 +197,119 @@ a:focus-visible {
 }
 
 .status { margin-top: 2rem; }
+
+.set-list {
+  display: grid;
+  gap: 0.55rem;
+  margin-top: 0.85rem;
+}
+
+.set-row {
+  display: grid;
+  grid-template-columns: 1.4rem minmax(0, 1fr) minmax(0, 1fr);
+  gap: 0.45rem;
+  align-items: end;
+}
+
+.set-no {
+  padding-bottom: 0.65rem;
+  color: var(--lime);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.field {
+  display: grid;
+  gap: 0.28rem;
+  color: var(--muted);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin: 0;
+  padding: 0.6rem 0.65rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.28);
+  color: var(--ink);
+  font: inherit;
+  font-size: 16px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+textarea { resize: vertical; }
+
+input:focus-visible,
+textarea:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--lime);
+  outline-offset: 2px;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+button {
+  min-height: 44px;
+  padding: 0.4rem 0.9rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--ink);
+  font: inherit;
+  font-weight: 650;
+  cursor: pointer;
+}
+
+button.primary {
+  border-color: transparent;
+  background: var(--lime);
+  color: var(--lime-ink);
+}
+
+button.danger {
+  border-color: rgba(255, 180, 162, 0.5);
+  color: var(--danger);
+}
+
+.editor {
+  display: grid;
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+
+.editor-exercise {
+  display: grid;
+  gap: 0.55rem;
+  padding: 0.9rem;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--bg-raise);
+}
+
+.editor-grid {
+  display: grid;
+  grid-template-columns: 0.7fr 1fr 1fr;
+  gap: 0.45rem;
+}
+
+.form-error {
+  margin: 0;
+  color: var(--danger);
+}
+
+.local-note {
+  margin: 0.9rem 0 0;
+  color: var(--muted);
+  font-size: 0.85rem;
+}

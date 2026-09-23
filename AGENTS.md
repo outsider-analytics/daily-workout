@@ -11,6 +11,8 @@ Before a session, replace that date:
 
 Required fields: `date` (`YYYY-MM-DD`), `title`, and `exercises`. Each exercise needs `name`, integer `sets`, and `reps`. `load` and `notes` can be empty strings. `sample: false` hides the sample banner.
 
-Do not invent a training plan the user did not ask for. If they did not specify weights, leave `load` blank or mark the workout `sample: true`.
+The current plan is the lower-leg rehab block for 2026-09-23 through 2026-09-27. Do not replace it with a general lifting week. Do not invent Monday's workout. Leave `load` blank unless the user named a weight.
+
+Reps and weight typed on the phone stay in that browser. They are not in `data/workouts.json`. A replace or delete done on the phone also stays on that phone until the user taps Restore shared plan.
 
 Changing the page itself is separate from seeding. Seeding should only touch the JSON database unless the user asked for an app change.

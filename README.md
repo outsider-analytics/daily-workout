@@ -1,14 +1,14 @@
 # Daily workout
 
-Phone page for the workout saved on today's date. The database is `data/workouts.json`.
+Phone page for the workout saved on today's date. The shared plan is `data/workouts.json`.
 
-Once this is on GitHub Pages, open:
+Open it at:
 
 https://outsider-analytics.github.io/daily-workout/
 
-Add it to your home screen from Safari if you want an icon. The page uses the phone's local date. Use the day links to look at yesterday or tomorrow.
+The page uses the phone's local date. Each set has a reps box and a weight box. Those numbers stay in this phone's browser. Replace swaps that day for a workout you type in. Delete removes it. Restore shared plan brings back the copy from the database.
 
-The week already in the database is a **sample**. Weights are placeholders.
+This week is the lower-leg rehab block for September 23–27. No running. Pain during training stays at 0–3/10.
 
 ## Seed a day
 
