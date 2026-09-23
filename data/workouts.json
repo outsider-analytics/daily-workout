@@ -1,0 +1,198 @@
+{
+  "version": 1,
+  "workouts": [
+    {
+      "date": "2026-09-21",
+      "title": "Lower strength",
+      "sample": true,
+      "notes": "Sample weights. Change them to what you actually lift.",
+      "exercises": [
+        {
+          "name": "Back squat",
+          "sets": 4,
+          "reps": "5",
+          "load": "155 lb",
+          "notes": "Brace before you unrack"
+        },
+        {
+          "name": "Romanian deadlift",
+          "sets": 3,
+          "reps": "8",
+          "load": "135 lb",
+          "notes": "Stop when the back starts to round"
+        },
+        {
+          "name": "Walking lunge",
+          "sets": 3,
+          "reps": "10 / leg",
+          "load": "bodyweight",
+          "notes": ""
+        },
+        {
+          "name": "Leg curl",
+          "sets": 3,
+          "reps": "12",
+          "load": "50 lb",
+          "notes": ""
+        },
+        {
+          "name": "Calf raise",
+          "sets": 3,
+          "reps": "12",
+          "load": "100 lb",
+          "notes": "Pause at the top"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Rest",
+      "sample": true,
+      "notes": "No lifting. A walk is plenty.",
+      "exercises": []
+    },
+    {
+      "date": "2026-09-23",
+      "title": "Upper strength",
+      "sample": true,
+      "notes": "Sample weights. Change them to what you actually lift.",
+      "exercises": [
+        {
+          "name": "Bench press",
+          "sets": 4,
+          "reps": "6",
+          "load": "135 lb",
+          "notes": "Leave a rep or two in the tank"
+        },
+        {
+          "name": "One-arm dumbbell row",
+          "sets": 4,
+          "reps": "8",
+          "load": "40 lb",
+          "notes": "Each arm"
+        },
+        {
+          "name": "Seated dumbbell shoulder press",
+          "sets": 3,
+          "reps": "8",
+          "load": "30 lb",
+          "notes": "Each hand"
+        },
+        {
+          "name": "Lat pulldown",
+          "sets": 3,
+          "reps": "10",
+          "load": "80 lb",
+          "notes": ""
+        },
+        {
+          "name": "Lateral raise",
+          "sets": 2,
+          "reps": "15",
+          "load": "10 lb",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "title": "Lower strength",
+      "sample": true,
+      "notes": "Sample weights. Hinge day, so keep the back set.",
+      "exercises": [
+        {
+          "name": "Deadlift",
+          "sets": 3,
+          "reps": "5",
+          "load": "185 lb",
+          "notes": "Reset each rep"
+        },
+        {
+          "name": "Front squat",
+          "sets": 3,
+          "reps": "6",
+          "load": "95 lb",
+          "notes": ""
+        },
+        {
+          "name": "Hip thrust",
+          "sets": 3,
+          "reps": "8",
+          "load": "135 lb",
+          "notes": ""
+        },
+        {
+          "name": "Split squat",
+          "sets": 3,
+          "reps": "8 / leg",
+          "load": "25 lb",
+          "notes": "Dumbbell in each hand"
+        },
+        {
+          "name": "Plank",
+          "sets": 3,
+          "reps": "40 sec",
+          "load": "bodyweight",
+          "notes": "Stop if the lower back sags"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "title": "Upper pump",
+      "sample": true,
+      "notes": "Sample weights. Lighter than Wednesday.",
+      "exercises": [
+        {
+          "name": "Incline dumbbell press",
+          "sets": 3,
+          "reps": "10",
+          "load": "40 lb",
+          "notes": "Each hand"
+        },
+        {
+          "name": "Chest-supported row",
+          "sets": 3,
+          "reps": "10",
+          "load": "30 lb",
+          "notes": "Each hand"
+        },
+        {
+          "name": "Lat pulldown",
+          "sets": 3,
+          "reps": "8",
+          "load": "70 lb",
+          "notes": "Use pull-ups instead if those are easy"
+        },
+        {
+          "name": "Face pull",
+          "sets": 2,
+          "reps": "15",
+          "load": "25 lb",
+          "notes": ""
+        },
+        {
+          "name": "Curl",
+          "sets": 2,
+          "reps": "12",
+          "load": "25 lb",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "title": "Rest",
+      "sample": true,
+      "notes": "No lifting.",
+      "exercises": []
+    },
+    {
+      "date": "2026-09-27",
+      "title": "Rest",
+      "sample": true,
+      "notes": "Week is done. Seed next week before Monday.",
+      "exercises": []
+    }
+  ]
+}
