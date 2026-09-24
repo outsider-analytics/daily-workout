@@ -1,12 +1,11 @@
 {
   "version": 1,
-  "guidance": "Keep pain during training at 0–3/10. The bigger checkpoint is the next morning: if the Achilles and peroneals feel the same or better, the load was appropriate. Skip running this week. Monday is the next heavy lower-leg day.",
   "workouts": [
     {
       "date": "2026-09-23",
       "title": "Lower-leg capacity",
-      "sample": false,
       "notes": "Build capacity. Do not test running.",
+      "sample": false,
       "exercises": [
         {
           "name": "Straight-knee calf raise",
@@ -45,48 +44,48 @@
     {
       "date": "2026-09-24",
       "title": "Easy day",
+      "notes": "Peroneals are a bit sore from yesterday. No eversion and no band walks. Keep pain at 0–2/10. No running.",
       "sample": false,
-      "notes": "Easy bike and light lower-leg work. No running.",
       "exercises": [
         {
           "name": "Easy bike",
           "sets": 1,
           "reps": "20-30 min",
           "load": "",
-          "notes": "",
+          "notes": "Easy spin. Stop if the outside of the ankle starts to ache.",
           "youtube": "https://www.youtube.com/watch?v=XugMoMDxyhM"
         },
         {
           "name": "Step-downs",
-          "sets": 3,
-          "reps": "10 / side",
+          "sets": 2,
+          "reps": "8 / side",
           "load": "",
-          "notes": "",
+          "notes": "Slow. Skip the rest of the set if the outside ankle gets sore.",
           "youtube": "https://www.youtube.com/watch?v=Or4C-UQ63Xc"
-        },
-        {
-          "name": "Lateral band walks",
-          "sets": 3,
-          "reps": "15 / side",
-          "load": "",
-          "notes": "",
-          "youtube": "https://www.youtube.com/watch?v=rPTkrAJ6Fh4"
         },
         {
           "name": "Light calf isometric",
           "sets": 3,
-          "reps": "30-45 sec",
+          "reps": "30 sec",
           "load": "",
-          "notes": "Light",
+          "notes": "Light. Both feet. This is the calf, not the sore peroneals.",
           "youtube": "https://www.youtube.com/watch?v=A2XU5b-h-WU"
+        },
+        {
+          "name": "Gentle ankle mobility",
+          "sets": 1,
+          "reps": "easy",
+          "load": "",
+          "notes": "Ankle circles only. No band.",
+          "youtube": "https://www.youtube.com/watch?v=mzTQGYGI0Ng"
         }
       ]
     },
     {
       "date": "2026-09-25",
       "title": "Lower-leg strength",
-      "sample": false,
       "notes": "Calf work at RPE 7-8. No running.",
+      "sample": false,
       "exercises": [
         {
           "name": "Straight-knee calf raise",
@@ -125,8 +124,8 @@
     {
       "date": "2026-09-26",
       "title": "Home day",
-      "sample": false,
       "notes": "Light day at home.",
+      "sample": false,
       "exercises": [
         {
           "name": "Band eversion",
@@ -165,8 +164,8 @@
     {
       "date": "2026-09-27",
       "title": "Recovery",
-      "sample": false,
       "notes": "Recovery only. No hard calf work.",
+      "sample": false,
       "exercises": [
         {
           "name": "Normal walking",
@@ -186,5 +185,6 @@
         }
       ]
     }
-  ]
+  ],
+  "guidance": "Keep pain during training at 0–3/10. The bigger checkpoint is the next morning: if the Achilles and peroneals feel the same or better, the load was appropriate. Skip running this week. Monday is the next heavy lower-leg day."
 }
