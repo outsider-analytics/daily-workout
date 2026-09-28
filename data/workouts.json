@@ -184,6 +184,46 @@
           "youtube": "https://www.youtube.com/watch?v=mzTQGYGI0Ng"
         }
       ]
+    },
+    {
+      "date": "2026-09-28",
+      "title": "Lower-leg strength",
+      "notes": "Same session as Friday, after the week off. Pain 0–3/10. No running.",
+      "sample": false,
+      "exercises": [
+        {
+          "name": "Straight-knee calf raise",
+          "sets": 4,
+          "reps": "6-8",
+          "load": "",
+          "notes": "RPE 7-8",
+          "youtube": "https://www.youtube.com/watch?v=gw_a90PqMqk"
+        },
+        {
+          "name": "Bent-knee soleus",
+          "sets": 4,
+          "reps": "8-10",
+          "load": "",
+          "notes": "RPE 7-8",
+          "youtube": "https://www.youtube.com/watch?v=8Vc4cx7nF4Y"
+        },
+        {
+          "name": "Single-leg RDL",
+          "sets": 3,
+          "reps": "8 / side",
+          "load": "",
+          "notes": "",
+          "youtube": "https://www.youtube.com/watch?v=Zfr6wizR8rs"
+        },
+        {
+          "name": "Cable eversion",
+          "sets": 3,
+          "reps": "15",
+          "load": "",
+          "notes": "",
+          "youtube": "https://www.youtube.com/watch?v=xfrncpP5ONQ"
+        }
+      ]
     }
   ],
   "guidance": "Keep pain during training at 0–3/10. The bigger checkpoint is the next morning: if the Achilles and peroneals feel the same or better, the load was appropriate. Skip running this week. Monday is the next heavy lower-leg day."
