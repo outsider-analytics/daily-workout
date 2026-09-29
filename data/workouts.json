@@ -224,6 +224,46 @@
           "youtube": "https://www.youtube.com/watch?v=xfrncpP5ONQ"
         }
       ]
+    },
+    {
+      "date": "2026-09-29",
+      "title": "Easy day",
+      "notes": "A bit sore from yesterday. No heavy calf work, no single-leg RDL, and no eversion. Keep pain at 0–2/10. No running.",
+      "sample": false,
+      "exercises": [
+        {
+          "name": "Easy bike",
+          "sets": 1,
+          "reps": "20-30 min",
+          "load": "",
+          "notes": "Easy spin. Stop if the soreness climbs.",
+          "youtube": "https://www.youtube.com/watch?v=XugMoMDxyhM"
+        },
+        {
+          "name": "Step-downs",
+          "sets": 2,
+          "reps": "8 / side",
+          "load": "",
+          "notes": "Slow. Skip the rest of the set if it gets sore.",
+          "youtube": "https://www.youtube.com/watch?v=Or4C-UQ63Xc"
+        },
+        {
+          "name": "Light calf isometric",
+          "sets": 2,
+          "reps": "20 sec",
+          "load": "",
+          "notes": "Very light. Both feet. Stop if the calf or Achilles complains.",
+          "youtube": "https://www.youtube.com/watch?v=A2XU5b-h-WU"
+        },
+        {
+          "name": "Gentle ankle mobility",
+          "sets": 1,
+          "reps": "easy",
+          "load": "",
+          "notes": "Ankle circles only. No band.",
+          "youtube": "https://www.youtube.com/watch?v=mzTQGYGI0Ng"
+        }
+      ]
     }
   ],
   "guidance": "Keep pain during training at 0–3/10. The bigger checkpoint is the next morning: if the Achilles and peroneals feel the same or better, the load was appropriate. Skip running this week. Monday is the next heavy lower-leg day."
